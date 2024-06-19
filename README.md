@@ -40,4 +40,20 @@
 
        -  ใช้ Security Headers เช่น Content Security Policy (CSP), Strict-Transport-Security (HSTS), X-Content-Type-Options เพื่อเพิ่มระดับการป้องกัน
 
+    
+XXE (XML External Entity) 
+
+การโจมตีที่ใช้ประโยชน์จากการวิเคราะห์ XML (XML Parsing) ที่ไม่ปลอดภัยในแอปพลิเคชัน ผู้โจมตีสามารถแทรกหรือเข้าถึงเอนทิตีภายนอก (External Entity) ภายในเอกสาร XML เพื่อดึงข้อมูลที่เป็นความลับ, ทำให้ระบบล่ม หรือโจมตีระบบในลักษณะอื่นๆ ได้
+
+วิธีการป้องกัน XXE
+
+  1.  การปิดใช้งานเอนทิตีภายนอกใน XML Parser:
+
+  2.  การใช้ไลบรารีที่ปลอดภัยจาก XXE:
+
+  3.  การใช้ Whitelist ในการโหลดไฟล์:
+
+  4.  การตรวจสอบและกรองข้อมูล XML ที่เข้ามา (Input Validation and Sanitization):
+
+  5.  การใช้ Content Security Policy (CSP):
 
