@@ -57,3 +57,5 @@ XXE (XML External Entity)
 
   5.  การใช้ Content Security Policy (CSP):
 
+video การทำ XXE : https://www.youtube.com/watch?v=EU2sVZAXcdE&t=1s
+
